@@ -4,8 +4,8 @@ export default function GameCard() {
   return (
     <>
       <div
-        className="flex flex-col w-60 h-60 bg-cyan-200 rounded-3xl border-5 border-sky-300 p-4 
-        transition-all duration-350 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-sky-500"
+        className="flex flex-col w-60 h-60 bg-cyan-100 rounded-3xl border-5 border-sky-300 p-4 
+        transition-all duration-350 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-sky-500 shrink-0 snap-center"
       >
         <div className="flex justify-between w-full h-max ">
           <GraduationCap
@@ -25,9 +25,9 @@ export default function GameCard() {
           </div>
         </div>
         <div className="flex flex-col">
-          <h3 className="opacity-40 ">Hra se slovy</h3>
-          <h1 className=" font-medium ">Šibenice: Slova po B</h1>
-          <button className="  w-full h-13 bg-linear-10 from-cyan-500 to-cyan-300  rounded-2xl mt-2 mb-2  bg-size-[200%_auto] transition-all duration-300 ease-in-out hover:cursor-pointer hover:bg-right ">
+          <span className="opacity-40 ">Hra se slovy</span>
+          <span className=" font-medium ">Šibenice: Slova po B</span>
+          <button className=" text-white w-full h-13 bg-linear-10 from-cyan-500 to-cyan-300  rounded-2xl mt-2 mb-2  bg-size-[200%_auto] transition-all duration-300 ease-in-out hover:cursor-pointer hover:bg-right ">
             Hrát
           </button>
           <div className="flex justify-center text-cyan-700">
