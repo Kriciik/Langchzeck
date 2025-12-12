@@ -1,5 +1,5 @@
 import GameCardGrid from "../components/homeComponents/GameCardGrid";
-import SideNavigationBar from "../components/homeComponents/SideNavigationBar";
+import SideNavigationBar from "../components/ui/SideNavigationBar";
 import TopBar from "../components/homeComponents/TopBar";
 export default function Home() {
   return (

@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"fe2c3155dd668b5f","type":"text","text":" # **Frontend** \n","x":-380,"y":-520,"width":440,"height":140},
+		{"id":"ad1238f98b0bcc78","type":"text","text":"Stránky\n","x":-1140,"y":-280,"width":250,"height":60},
+		{"id":"f4489e85c1d9c256","x":-2180,"y":-50,"width":250,"height":60,"color":"1","type":"text","text":"Profile \n"},
+		{"id":"d99f21eccb8cc7c0","x":-1520,"y":-50,"width":250,"height":60,"color":"3","type":"text","text":"Dashboard\n"},
+		{"id":"8a40be0bd76bdcfb","x":-1015,"y":-50,"width":250,"height":60,"color":"4","type":"text","text":"Shop (?)"},
+		{"id":"de8e4a66b7a775f6","x":-505,"y":-50,"width":250,"height":60,"color":"6","type":"text","text":"Lessons"},
+		{"id":"9fd9c0a87bde5426","x":60,"y":280,"width":250,"height":60,"type":"text","text":"Game Pages\n"},
+		{"id":"459be2c25d35820b","x":-190,"y":786,"width":250,"height":60,"type":"text","text":"doplňování i/y"},
+		{"id":"bbecbf16de6a1389","x":-71,"y":600,"width":250,"height":60,"type":"text","text":"doplňování do slov"},
+		{"id":"9d0fd3a3d69fe5b4","x":249,"y":600,"width":250,"height":60,"type":"text","text":" pexeso\n "},
+		{"id":"f3c1f5892750d049","x":589,"y":600,"width":250,"height":60,"type":"text","text":"volba správnosti slova"},
+		{"id":"dd7d821b1b4a16ea","x":-392,"y":600,"width":250,"height":60,"type":"text","text":"Šibenice\n"}
+	],
+	"edges":[
+		{"id":"0009d0bbb1000dc6","fromNode":"fe2c3155dd668b5f","fromSide":"bottom","toNode":"ad1238f98b0bcc78","toSide":"top"},
+		{"id":"e066b0154c631903","fromNode":"ad1238f98b0bcc78","fromSide":"bottom","toNode":"f4489e85c1d9c256","toSide":"top"},
+		{"id":"d8d64ec96832abd1","fromNode":"ad1238f98b0bcc78","fromSide":"bottom","toNode":"d99f21eccb8cc7c0","toSide":"top"},
+		{"id":"776fc06e08b28e30","fromNode":"9fd9c0a87bde5426","fromSide":"bottom","toNode":"dd7d821b1b4a16ea","toSide":"top"},
+		{"id":"58ed6446c2062fdf","fromNode":"9fd9c0a87bde5426","fromSide":"bottom","toNode":"bbecbf16de6a1389","toSide":"top"},
+		{"id":"a76b9201ea5a08c7","fromNode":"bbecbf16de6a1389","fromSide":"bottom","toNode":"459be2c25d35820b","toSide":"top"},
+		{"id":"13da567b9ff59a31","fromNode":"9fd9c0a87bde5426","fromSide":"bottom","toNode":"9d0fd3a3d69fe5b4","toSide":"top"},
+		{"id":"4ca4e07e16e30fbe","fromNode":"9fd9c0a87bde5426","fromSide":"bottom","toNode":"f3c1f5892750d049","toSide":"top"},
+		{"id":"d5d277e4cfd51ee0","fromNode":"ad1238f98b0bcc78","fromSide":"bottom","toNode":"8a40be0bd76bdcfb","toSide":"top"},
+		{"id":"5d0ae9f60f39aa2c","fromNode":"ad1238f98b0bcc78","fromSide":"bottom","toNode":"de8e4a66b7a775f6","toSide":"top"},
+		{"id":"ff461ebb681d0780","fromNode":"de8e4a66b7a775f6","fromSide":"bottom","toNode":"9fd9c0a87bde5426","toSide":"top"}
+	]
+}
