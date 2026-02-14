@@ -1,1 +1,1 @@
-React application made for people, who wants to learn Czech language
+React application ~~made~~ in-progress for people, who wants to learn Czech language
